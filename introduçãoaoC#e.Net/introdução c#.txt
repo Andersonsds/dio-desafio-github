@@ -1,0 +1,36 @@
+#Classe#
+
+A classe seria então o modelo a partir do qual criamos os objetos da classe e fazemos isso criando instâncias da classe.
+
+Criar um objeto de uma classe significa criar uma instância da classe.
+
+Na linguagem C# para criar uma instância de uma classe usamos a palavra-chave new.
+
+Assim o exemplo : Clientes Dio = new Clientes();
+
+Cria uma instância da classe Cliente() ou seja cria o objeto Dio do tipo Cliente().
+
+Nos criamos uma instância de uma classe usando a palavra new para podermos definir/utilizar as propriedades/atributos e comportamento do objeto.
+
+As Classes contém: métodos (ações) e atributos (características).
+
+#Namespaces#
+
+Tem o objetivo de organizar as classes (são um conjunto de classes).
+
+- Eles organizam projetos de códigos grandes.
+- Eles são delimitados usando o . operador.
+- A diretiva using elimina a necessidade de especificar o nome do namespace para cada classe.
+- O namespace global é o namespace "raiz": global::System sempre fará referência ao namespace do .NET System.
+
+#Interface#
+
+Interface é um tipo de classe que é usada como modelo para construção de novas Classes.
+
+Na linguagem C# a sintaxe usada para indicar a utilização de uma interface é colocar dois pontos após o nome da classe concreta que vai implementar a interface seguido do nome da interface. Ex:   Produto : Iteste   (Produto = classe concreta   Iteste = interface).
+
+#Enum# 
+
+Enums (enumerations ou enumerações, em português) são constantes fortemente tipadas. Elas são estáticas, ou seja, não é possível nem preciso acessar os seus valores instanciando um objeto utilizando a palavra reservada new. O acesso é feito a partir do nome da classe em que está contido e em seguida o nome do enum a ser utilizado.
+ 
+
